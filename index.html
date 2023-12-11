@@ -1,84 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maria Jose</title>
-    <!-- link de CSS Bootstrap -->
+    <title>Maria Jose Cen</title>
+    <!-- Link de CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
-                </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                </ul>
-<section id= "perfil" class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-      </div>
-    </div> </section>
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
-                        aria-label="Search">
-                </form>
+<body style= "background-color: chartreuse;" > 
+    <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Inicio</a></li>
+            <li class="nav-item"><a href="#perfil" class="nav-link">Perfil</a></li>
+            <li class="nav-item"><a href="#experiencias" class="nav-link">Experiencias</a></li>
+            <li class="nav-item"><a href="#principios" class="nav-link">Principios</a></li>
+            <li class="nav-item"><a href="#testimonio" class="nav-link">Testimonio</a></li>
+        </ul>
+    </header>
 
-                <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2">Login</button>
-                    <button type="button" class="btn btn-warning">Sign-up</button>
+    <main>
+        <section id="perfil" class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="assets/perfil.jpg" alt="perfil" width="72"
+                height="57">
+            <h1 id="titulo" class="display-5 fw-bold text-body-emphasis">Maria Jose</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">NOMBRE: María José Cen Hu</p>
+                   <p>EDAD: 18</p>
+                  <p>ESTUDIA EN: Universidad de Oriente</p>
+                  <p>CARRERA: Licenciatura en Tecnologías de la Información y Comunicación</p> 
+                   <p>INTERESES: Desarrollo de software, ciberseguridad, inteligencia artificial.</p>
+                   <p>AFICIONES: Explorar nuevas tecnologías y leer sobre avances tecnológicos.</p>
+
+                   </p>"No son nuestras habilidades las que muestran cómo somos, sino nuestras elecciones”</p>
+
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Explorar</button>
                 </div>
             </div>
-        </div>
-    </header>
-    <main> 
-    <section id= "habilidades" class="container px-4 py-5" id="hanging-icons">
-            <h2 class="pb-2 border-bottom">Hanging icons</h2>
+        </section>
+        <section id="principios" class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">Principios que guiaran mi camino</h2>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                 <div class="col d-flex align-items-start">
                     <div
                         class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
+                        <i class="bi bi-toggles"></i>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
+                        <h3 class="fs-2 text-body-emphasis">Iniciativa y Responsabilidad Estudiantil</h3>
+                        <p>-Muestro iniciativa en mi Formación.</p>
+                        <p>-Comprometida con cumplir responsabilidades académicas de manera proactiva</p>
+
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
                     <div
                         class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em">
-                            <use xlink:href="#cpu-fill"></use>
-                        </svg>
+                        <i class="bi bi-cpu-fill"></i>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
+                        <h3 class="fs-2 text-body-emphasis">Compromiso con la excelencia Académica</h3>
+                        <p>-Busco Alcanzar altos estándares en mis estudios.</p>
+                        <p>-Valoro la integridad académica y la dedicación al aprendizaje</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -89,27 +79,129 @@
                         </svg>
                     </div>
                     <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
+                        <h3 class="fs-2 text-body-emphasis">Colaboración y comunicación en el entorno educativo</h3>
+                        <p>-Fomento un ambiente de aprendizaje colaborativo.</p>
+                        <p>-Habilidades de comunicación efectiva en el ámbito educativo</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="experiencias" class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Experiencias</h2>
 
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('assets/i6.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fui al evento del i6 en mérida</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="assets/viajes.png" alt="viajes" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>Mérida</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>3d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('assets/Amistades.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">conocí nuevas amistades</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="assets/Amistad.jpg" alt="Amistad" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>Universidad de oriente</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>4d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: url('unsplash-photo-3.jpg');">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tome el curso de tecnolochicas-PRO</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="assets/icono.png" alt="icono" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>yucatán</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>5d</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+    
+        <section id="testimonio" class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">Testimonio</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">Es un honor destacar la dedicación y pasión que demuestras en tu travesía académica.
+                         Como estudiante de la Licenciatura en Tecnologías de la Información y Comunicación,
+                          has demostrado un compromiso excepcional con el aprendizaje y la innovación. 
+                          Tu habilidad para abordar desafíos tecnológicos y tu sed insaciable de conocimiento son inspiradores. 
+                          Estoy seguro de que tu futura contribución al mundo de la tecnología será tan brillante como tu enfoque actual en los estudios. 
+                        ¡Adelante, sigue persiguiendo tus metas con esa determinación única que te caracteriza! 🚀💻.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">👍</button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4">❤</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Link de JS Bootstrap - al final por que necesita que ya existan las etiquetas para ponerlas a hacer cosas.
+    y como esas cosas pueden variar, tienen que empezarse a hacer hasta que ya existan todos los elementos de HTML y CSS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+        <script src="script.js"></script>
 </body>
-
-<!-- link de JS Bootstrap - al final porque necesita que ya existan las cetiquetas para ponerlas a hacer cosas.
-y como esas cosas pueden variar, tienen que empezarse a hacer hasta que ya existan todos los elementos de html
--->
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
 
 </html>
